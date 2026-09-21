@@ -43,17 +43,29 @@ The cleaned dataset was loaded into `AirbnbAnalysisDB` and the script:
 - Entire homes/apartments command roughly double the price of private rooms
 - A meaningful share of listings belong to hosts with multiple properties, suggesting commercial rather than casual hosting
 - Price correlates weakly with review count and availability — location and room type are the stronger drivers
+## Visualisations
 
-## Repository contents
+### Price by borough
+![Price by borough](images/price_by_borough.png)
 
-```
-├── notebooks/
-│   └── Airbnb_Data_Analysis.ipynb    # Cleaning, EDA and visualisation
-├── sql/
-│   └── Airbnb.sql                    # Type validation, conversion and analysis queries
-├── images/                           # Exported charts
-└── README.md
-```
+Manhattan sits well above the other boroughs; the Bronx and Staten Island trail.
+
+### Room type breakdown
+![Listings by room type](images/room_type_counts.png)
+
+### Listings mapped by price
+![Geographic price map](images/geo_price_map.png)
+
+### Correlation matrix
+![Correlation heatmap](images/correlation_heatmap.png)
+
+Other charts: [availability vs price](images/availability_vs_price.png) ·
+[reviews vs price](images/reviews_vs_price.png) ·
+[top neighbourhoods](images/top_neighborhoods.png) ·
+[host concentration](images/host_listing_concentration.png) ·
+[minimum nights](images/minimum_nights_dist.png) ·
+[price category by borough](images/price_category_by_borough.png) ·
+[before/after cleaning](images/price_distribution_comparison.png)
 
 ## How to run
 
