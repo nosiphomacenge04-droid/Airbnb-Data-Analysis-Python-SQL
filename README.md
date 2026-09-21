@@ -4,7 +4,7 @@ Exploratory analysis of the 2019 New York City Airbnb open dataset (~49,000 list
 
 ## Dataset
 
-(AB_NYC_2019.CSV) — public Airbnb listings data for New York City, 2019. Columns include listing ID and name, host ID and name, borough (neighbourhood_group), neighbourhood, latitude/longitude, room type, price, minimum nights, review counts, host listing counts and yearly availability.
+[Airbnb_Data_Analysis.ipynb](Airbnb_Data_Analysis.ipynb) — public Airbnb listings data for New York City, 2019. Columns include listing ID and name, host ID and name, borough (neighbourhood_group), neighbourhood, latitude/longitude, room type, price, minimum nights, review counts, host listing counts and yearly availability.
 
 ## Tools
 
@@ -67,4 +67,8 @@ Other charts: [availability vs price](availability_vs_price.png) ·
 [price category by borough](price_category_by_borough.png) ·
 [before/after cleaning](AB_NYC_2019.CSV)
 
-
+## Project files
+ [Airbnb_Data_Analysis.ipynb](Airbnb_Data_Analysis.ipynb) | Cleaning, EDA and visualisation in Python |
+ [Airbnb.sql](/Airbnb.sql) | Type conversion and analysis queries |
+ [AB_NYC_2019.csv](AB_NYC_2019.csv) | Raw dataset |
+ [AB_NYC_2019_cleaned.csv](AB_NYC_2019.csv) | Cleaned dataset used for SQL analysis |
