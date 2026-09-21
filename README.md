@@ -46,35 +46,25 @@ The cleaned dataset was loaded into `AirbnbAnalysisDB` and the script:
 ## Visualisations
 
 ### Price by borough
-![Price by borough](images/price_by_borough.png)
+![Price by borough](price_by_borough.png)
 
 Manhattan sits well above the other boroughs; the Bronx and Staten Island trail.
 
 ### Room type breakdown
-![Listings by room type](images/room_type_counts.png)
+![Listings by room type](room_type_counts.png)
 
 ### Listings mapped by price
-![Geographic price map](images/geo_price_map.png)
+![Geographic price map](geo_price_map.png)
 
 ### Correlation matrix
-![Correlation heatmap](images/correlation_heatmap.png)
+![Correlation heatmap](correlation_heatmap.png)
 
-Other charts: [availability vs price](images/availability_vs_price.png) ·
-[reviews vs price](images/reviews_vs_price.png) ·
-[top neighbourhoods](images/top_neighborhoods.png) ·
-[host concentration](images/host_listing_concentration.png) ·
-[minimum nights](images/minimum_nights_dist.png) ·
-[price category by borough](images/price_category_by_borough.png) ·
-[before/after cleaning](images/price_distribution_comparison.png)
+Other charts: [availability vs price](availability_vs_price.png) ·
+[reviews vs price](reviews_vs_price.png) ·
+[top neighbourhoods](top_neighborhoods.png) ·
+[host concentration](host_listing_concentration.png) ·
+[minimum nights](minimum_nights_dist.png) ·
+[price category by borough](price_category_by_borough.png) ·
+[before/after cleaning](price_distribution_comparison.png)
 
-## How to run
 
-**Python**
-```bash
-pip install pandas numpy matplotlib seaborn openpyxl
-jupyter notebook notebooks/Airbnb_Data_Analysis.ipynb
-```
-Place `AB_NYC_2019.csv` in the same folder as the notebook before running.
-
-**SQL**
-Create a database called `AirbnbAnalysisDB`, import `AB_NYC_2019_cleaned.csv` into a table named `airbnb_listings`, then run `sql/Airbnb.sql` top to bottom.
