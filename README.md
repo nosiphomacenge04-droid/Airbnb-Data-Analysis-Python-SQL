@@ -4,7 +4,7 @@ Exploratory analysis of the 2019 New York City Airbnb open dataset (~49,000 list
 
 ## Dataset
 
-`AB_NYC_2019.csv` — public Airbnb listings data for New York City, 2019. Columns include listing ID and name, host ID and name, borough (`neighbourhood_group`), neighbourhood, latitude/longitude, room type, price, minimum nights, review counts, host listing counts and yearly availability.
+(AB_NYC_2019.CSV) — public Airbnb listings data for New York City, 2019. Columns include listing ID and name, host ID and name, borough (neighbourhood_group), neighbourhood, latitude/longitude, room type, price, minimum nights, review counts, host listing counts and yearly availability.
 
 ## Tools
 
@@ -15,12 +15,12 @@ Exploratory analysis of the 2019 New York City Airbnb open dataset (~49,000 list
 ## What the project does
 
 **1. Data cleaning (Python)**
-- Filled missing values in `name`, `host_name` and `reviews_per_month`
+- Filled missing values in name, host_name and reviews_per_month
 - Stripped whitespace and standardised casing in text columns
-- Converted `last_review` to a proper datetime type
+- Converted last_review to a proper datetime type
 - Removed listings with a price of zero
 - Created a filtered copy with the top and bottom 1% of prices removed, so outliers don't distort the charts
-- Engineered two new features: `price_per_night_category` (Budget / Mid / High / Luxury / Premium) and `days_since_last_review`
+- Engineered two new features: price_per_night_category (Budget / Mid / High / Luxury / Premium) and days_since_last_review
 
 **2. Exploratory analysis (Python)**
 - Price distribution by borough and by room type
@@ -65,6 +65,6 @@ Other charts: [availability vs price](availability_vs_price.png) ·
 [host concentration](host_listing_concentration.png) ·
 [minimum nights](minimum_nights_dist.png) ·
 [price category by borough](price_category_by_borough.png) ·
-[before/after cleaning](price_distribution_comparison.png)
+[before/after cleaning](AB_NYC_2019.CSV)
 
 
